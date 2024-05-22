@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\v-jelder\\source\\repos\\WebApiMISE\\WebApiMISE\\WebApiMISE.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\v-jelder\\source\\repos\\WebApiMISE\\WebApiMISE\\WebApiMISE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v-jelder\\source\\repos\\WebApiMISE\\WebApiMISE\\WebApiMISE.csproj",
+        "projectName": "WebApiMISE",
+        "projectPath": "C:\\Users\\v-jelder\\source\\repos\\WebApiMISE\\WebApiMISE\\WebApiMISE.csproj",
+        "packagesPath": "C:\\Users\\v-jelder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-jelder\\source\\repos\\WebApiMISE\\WebApiMISE\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-jelder\\source\\repos\\WebApiMISE\\NuGet.Config",
+          "C:\\Users\\v-jelder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://identitydivision.pkgs.visualstudio.com/_packaging/IDDP/NuGet/v3/index.json": {},
+          "https://msazure.pkgs.visualstudio.com/One/_packaging/Networking-WanIncubation-Consumption/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.61.0, )"
+            },
+            "Microsoft.Identity.ServiceEssentials.AspNetCore": {
+              "target": "Package",
+              "version": "[1.25.0, )"
+            },
+            "Microsoft.Identity.ServiceEssentials.TokenAcquisitionIdWeb": {
+              "target": "Package",
+              "version": "[1.25.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.18.1, )"
+            },
+            "Microsoft.Identity.Web.GraphServiceClient": {
+              "target": "Package",
+              "version": "[2.18.1, )"
+            },
+            "Microsoft.Identity.Web.MicrosoftGraph": {
+              "target": "Package",
+              "version": "[2.18.1, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[2.18.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Principal": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
